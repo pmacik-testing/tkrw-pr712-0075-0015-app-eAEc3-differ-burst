@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-vsog
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0015-tenant/tkrw-pr712-0075-0015-app/devfile-sample-vsog@sha256:78501e966957228052a1fd4a277b6febc367c81ef038b903d0c3fd583a107aa8
         name: my-nodejs
         ports:
         - containerPort: 3001
